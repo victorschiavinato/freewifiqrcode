@@ -53,19 +53,8 @@
     <img src="https://i.imgur.com/jsqm4kO.png" alt="Gorila" id="gorillaImage">
     
     <div class="contador">
-        Visitas: <span id="visitas">210</span>
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ba1f48ac467f181d29c49a3e506fea56e8968ffc'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1447219/t/2"></script>
     </div>
-
-    <script>
-        // Carrega a imagem do arquivo anexado
-        const img = document.getElementById('gorillaImage');
-        
-        // Contador de visitas usando variável em memória
-        let contadorVisitas = parseInt(sessionStorage.getItem('visitas')) || 0;
-        contadorVisitas++;
-        sessionStorage.setItem('visitas', contadorVisitas);
-        
-        document.getElementById('visitas').textContent = contadorVisitas;
-    </script>
 </body>
 </html>
